@@ -2,7 +2,7 @@
 
 def split_bill(bill, people):
     """Return the amount each person has to pay."""
-    total = bill
+    total = bill + (bill * 0.05)  # add 5% tax
     return total / people
 
 
