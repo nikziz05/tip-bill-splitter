@@ -2,7 +2,7 @@
 
 def split_bill(bill, people):
     """Return the amount each person has to pay."""
-    total = bill
+    total = bill + (bill * 0.10)  # add 10% tip
     return total / people
 
 
